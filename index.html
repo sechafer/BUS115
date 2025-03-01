@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .profile-photo {
+            margin: 20px auto;
+            width: 200px;
+        }
+        
+        .avatar {
+            border-radius: 50%;
+            border: 5px solid #3498db;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .photo-caption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+        }
+        
+        h2 {
+            color: #3498db;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .info-item {
+            margin-bottom: 15px;
+        }
+        
+        .info-title {
+            font-weight: bold;
+            color: #3498db;
+            display: inline-block;
+            width: 120px;
+        }
+        
+        .tech-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .tech-item {
+            background-color: #e8f4fc;
+            border-radius: 5px;
+            padding: 10px;
+            flex: 1 1 200px;
+        }
+        
+        .project {
+            border-left: 3px solid #2ecc71;
+            padding-left: 15px;
+            margin: 15px 0;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        a:hover {
+            color: #2c3e50;
+            text-decoration: underline;
+        }
+        
+        .highlight {
+            background-color: #fdfd96;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me!</h1>
+        <div class="profile-photo">
+            <!-- Note: When publishing to Canvas, replace this comment with your actual photo URL -->
+            <img src="./img/samuel.jpeg" alt="Profile Photo" class="avatar"/>
+            <p class="photo-caption">My Photo</p>
+        </div>
+    </header>
+    
+    <div class="section">
+        <div class="info-item">
+            <span class="info-title">Live:</span>
+            I am from Venezuela, but I am living in São Paulo, Brazil
+        </div>
+        
+        <div class="info-item">
+            <span class="info-title">Work:</span>
+            I have my own company and I provide email marketing services for Sky, which is a private television subscription service, just like Directv is for all of Brazil.
+        </div>
+        
+        <div class="info-item">
+            <span class="info-title">Like to do:</span>
+            I like to read, watch science fiction documentaries and visit Asian food restaurants.
+        </div>
+        
+        <div class="info-item">
+            <span class="info-title">Interesting fact:</span>
+            I am a software development student and I am an electrical engineer.
+        </div>
+    </div>
+    
+    <h2>Experience with Microsoft Excel</h2>
+    <div class="section">
+        <p>At the University a year ago I studied Excel at an advanced level and even got to the point of programming macros, but then I used it for the electrical engineering laboratory.</p>
+        
+        <div class="project">
+            <p>Here is my latest invention that I made with Excel. It was a request from the company that I provide services for. It is a demo that uses the reports created by Salesforce Marketing Cloud and transforms them into something useful, since it ran out of Power BI licenses:</p>
+            <p><a href="https://github.com/sechafer/fromExcel_dashboard" target="_blank">https://github.com/sechafer/fromExcel_dashboard</a></p>
+        </div>
+    </div>
+    
+    <h2>Excel and my goals</h2>
+    <div class="section">
+        <p>Remember how I used to use macros and dynamic tables. I want to refresh my knowledge, since I learned it in Excel 20 years ago.</p>
+    </div>
+    
+    <h2>Learning technology</h2>
+    <div class="section">
+        <h3>Latest tech:</h3>
+        
+        <div class="tech-section">
+            <div class="tech-item">
+                <div class="project">
+                    <p>Here is a task manager that I made in C# using Blazor and with a Postgres database, and the deployment in Azure, all these technologies like 4 weeks ago here is the repo:</p>
+                    <p><a href="https://dev.azure.com/team2cse325/projectteam2cse325/_git/team2project" target="_blank">https://dev.azure.com/team2cse325/projectteam2cse325/_git/team2project</a></p>
+                    <p>Demo: <a href="https://scheduledayclient.azurewebsites.net/" target="_blank">https://scheduledayclient.azurewebsites.net/</a></p>
+                </div>
+            </div>
+            
+            <div class="tech-item">
+                <p>I had only worked with AWS and thanks to this last project in C# I learned to create databases in Azure and create deployments.</p>
+                <p>And if you are curious here is the link to my repo of my senior project: <a href="https://github.com/bloominolive/ChronoCanvas" target="_blank">https://github.com/bloominolive/ChronoCanvas</a> - was presented at the end of block 1</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>MY LINKEDIN</h2>
+        <p><a href="https://www.linkedin.com/in/sechafer/?locale=en_US" target="_blank">https://www.linkedin.com/in/sechafer/?locale=en_US</a></p>
+    </div>
+</body>
+</html>
+
+
+Versió
